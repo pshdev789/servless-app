@@ -1,0 +1,15 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-youtubefun-dev-113109-authRole",
+      "UnauthRoleArn": "arn:aws:iam::079205766577:role/amplify-youtubefun-dev-113109-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::079205766577:role/amplify-youtubefun-dev-113109-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-youtubefun-dev-113109-deployment",
+      "UnauthRoleName": "amplify-youtubefun-dev-113109-unauthRole",
+      "StackName": "amplify-youtubefun-dev-113109",
+      "StackId": "arn:aws:cloudformation:us-east-1:079205766577:stack/amplify-youtubefun-dev-113109/54844550-1107-11eb-9c7e-0e6115325dc3",
+      "AmplifyAppId": "d392agohx3t9ux"
+    }
+  }
+}

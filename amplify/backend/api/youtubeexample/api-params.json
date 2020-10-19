@@ -1,0 +1,62 @@
+{
+    "paths": [
+        {
+            "name": "/",
+            "lambdaFunction": "youtubeFun1",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/"
+        },
+        {
+            "name": "/test",
+            "lambdaFunction": "youtubeFun1",
+            "privacy": {
+                "open": true
+            },
+            "policyResourceName": "/test"
+        },
+        {
+            "name": "/item",
+            "lambdaFunction": "youtubefun0ff30057",
+            "privacy": {
+                "open": true
+            }
+        }
+    ],
+    "resourceName": "youtubeexample",
+    "apiName": "youtubeexample",
+    "functionArns": [
+        {
+            "lambdaFunction": "youtubeFun1"
+        },
+        {
+            "lambdaFunction": "youtubefun0ff30057"
+        }
+    ],
+    "privacy": {
+        "auth": 0,
+        "unauth": 0,
+        "authRoleName": "amplify-youtubefun-dev-113109-authRole",
+        "unAuthRoleName": "amplify-youtubefun-dev-113109-unauthRole"
+    },
+    "dependsOn": [
+        {
+            "category": "function",
+            "resourceName": "youtubeFun1",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        },
+        {
+            "category": "function",
+            "resourceName": "youtubefun0ff30057",
+            "attributes": [
+                "Name",
+                "Arn"
+            ]
+        }
+    ],
+    "uuid": "156c3873"
+}
